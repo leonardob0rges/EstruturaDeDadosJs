@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de dados</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Estruturas de dados em JavaScript</h1>
+    <ul>
+        <li><h3>Exibir todos os números de um vetor</h3></li>
+    </ul>
+    <form>
+        <input onclick="exibirNumeros()" type="button" value="Exibir números">
+        <input onclick="limpar()" type="reset" value="Limpar">
+    </form>
+        <div id="display"></div>
+    <br><br><br>
+    <ul>
+        <li><h3>CRUD numérico com vetor</h3></li>
+    </ul>
+    <form>
+        <input id="numero1" type="number" placeholder="Digite um número">
+        <input onclick="adicionarNumero()" type="button" value="Adicionar">
+        <input onclick="removerNumero()" type="button" value="Remover">
+        <input onclick= "limpar1()" type="reset" value="Limpar">
+    </form>
+    <div id="display1"></div>
+    <br><br><br>
+    <ul>
+        <li><h3>Busca de números de um vetor</h3></li>
+        <p>Insira um número de 1 a 50</p>
+    </ul>
+    <form>
+        <input id="numero2" type="number" placeholder="Digite um número">
+        <input onclick="buscarNumero()" type="button" value="Buscar">
+        <input onclick="limpar2()" type="reset" value="Limpar">
+    </form>
+    <div>
+        <div id="display2"></div>
+    </div>
+    <br><br><br>
+    <ul>
+        <li><h3>Tabela de dados</h3></li>
+    </ul>   
+    <form>
+        <input onclick="exibirTabela()" type="button" value="Exibir tabela">
+        <input onclick="limpar3()" type="reset" value="Limpar">
+    </form>
+    <div id="display3"></div> 
+    <br><br><br>
+    <ul>
+        <li><h3>Exibir matriz</h3></li>
+    </ul>   
+    <input onclick="exibirMatriz()" type="button" value="Exibir matriz">
+    <div id="display4"></div> 
+</body>
+</html>
